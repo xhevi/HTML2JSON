@@ -6,7 +6,7 @@
   "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["jquery-2.0.2.min.js"]
+        "js": ["jquery-2.0.2.min.js", "htmlparser.js", "html2json.js"]
       }
    ],
   "background":{
